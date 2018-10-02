@@ -15,6 +15,7 @@ for line in matrix:
     line[4] = sum_
 
 print('Полученная матрица')
+
 for line in matrix:
     for number in line:
         print(f'{number:>3}', end='')
